@@ -10,17 +10,17 @@ Normally when a breach happens, victim companies notice the breach after the att
 
 Although RSA’s security practice in terms of monitoring and responding to the on-going attack positively shows its ability to handle and recover from security incidents, the outcome of the breach was still severe. The company lost four customers after the breach, and customers raised concern and elevated their expectation on RSA’s security infrastructure. And as a result, RSA hired a CSO in June 2011 (Tom Brewster, 2012)
 
-## What happened with the breach? Include brief explanation of the type and quantity of information compromised and the injured parties (ex. Customers, employees, and etc.).
+## What happened with the breach?
 
 As a result of the security breach, the seed values of SecureID have been compromised (Ars Staff, 2011). SecureID secure token product is basically worthless if its algorithm and seed values are leaked. Hackers can generate any client’s one-time passcode if they know the client’s seed value. Hence, in order to mitigate the attack, RSA decided to replace the clients’ secure tokens. However, RSA claimed the attack was mainly targeted at the defense sectors and government-related organizations, and only clients within those categories will be provided with the replaced secure tokens, for example Lockheed Martin.
 
-## How/why did it happen? This should be a detailed discussion. Feel free to describe what happened in technical terms. For example, if a specific malware or type of attack was used, include those details. Was the breach discovered in-house or by a third party?
+## How/why did it happen?
 
 The attack pattern was identified as APT (advanced persistent threat) where a team of hackers initiates and executes an attack with long-term presence in a very specific target’s system. The attack initially leveraged social engineering by targeting an employee at RSA. The employee got a phishing email, and the click of the phishing email launched the attack in the employee’s machine. The attack vector’s payload contained a zero-day vulnerability of Adobe Flash, and it installed a trojan program called Poison Ivy. And the attack was able to make lateral movement within the system and attempted to gain privilege escalation. And it turned out the attack eventually succeeded and extracted data from the RSA system to an external server using FTP (John Leyden, 2011). However, while the attack is in progress, the internal security team, Incident Response Team, identified abnormal activities within the system, and in the middle of the attack, the company could block the attack and was able to reduce the size of damage (Eric Chabrow, 2011 April).
 
 The attack could have been prevented effectively if the company had measures on how long an account logged in a system or when the account logged in. For example, while the privilege escalation is attempted, the attacker should use an account to log in and get in to the system, if any monitoring system could have detected an abnormal login time or login duration, the company would have acted on the attack before it actually compromised the system.
 
-## Include a brief timeline of major events pre and post breach discovery (5 or more dates).
+## Timeline of major events pre and post breach discovery.
 
 The breach was discovered by the RSA’s security team and publicly announced on March 17th 2011. Below is the brief timeline of the attack (UKEssays, 2018):
 
@@ -51,11 +51,6 @@ It was obvious that the security breach caused damage to the business. However, 
 The company’s reputation has been affected at the beginning. However, from the fact that the company was able to identify the attack in progress by their own security team, it positively showed that RSA’s security infrastructure can protect and recover from cyber attacks. Hence, even if some clients left after the breach and the attack was mainly targeting the defense sector, Lockheed Martin still keeps business relationships with RSA.
 
 Also, a year later RSA’s chairman, Art Coviello, said that the company no longer is dealing with the security breach (Tom Brewster, 2012).
-
-
-
-
-
 
 ## References
 

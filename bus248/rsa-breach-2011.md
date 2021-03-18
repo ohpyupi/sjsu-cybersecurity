@@ -24,21 +24,16 @@ The attack could have been prevented effectively if the company had measures on 
 
 The breach was discovered by the RSA’s security team and publicly announced on March 17th 2011. Below is the brief timeline of the attack (UKEssays, 2018):
 
-After 2011, February 28th:
-An attacker acquired zero-day vulnerability of Adobe Flash
-The attacker sent phishing emails with an Excel file composed of the Adobe Flash zero-day vulnerability and Poison Ivy Trojan to RSA employees.
-An employee became a victim of the phishing attack, and it opened up the way for the  attack to the RSA’s network system.
-The attacker got credentials to go deep down in the RSA’s internal system using privilege escalation attacks.
-The attacker moved data from a server that contains data related to SecureID to an internal server where the data was aggregated, compressed and encrypted for extraction.
-The attacker used FTP to extract the encrypted data from the RSA’s internal server to an external server and the encrypted data was removed to hide the evidence of the attack.
-On 2011, March 14th:
-Adobe issued a security advisory and shared the patch schedule for the Adobe Flash zero-day (https://www.adobe.com/support/security/advisories/apsa11-01.html).
-On 2011, March 17th:
-RSA announced the discovery of the security breach happened for SecureID.
-On 2011, March 21th:
-Adobe released the patch for the zero-day vulnerability.
-On 2011, June 6th:
-RSA publicly announced the offer of replacement of victim clients’ secure tokens.
+- After 2011, February 28th:
+  - An attacker acquired zero-day vulnerability of Adobe Flash The attacker sent phishing emails with an Excel file composed of the Adobe Flash zero-day vulnerability and Poison Ivy Trojan to RSA employees. An employee became a victim of the phishing attack, and it opened up the way for the  attack to the RSA’s network system. The attacker got credentials to go deep down in the RSA’s internal system using privilege escalation attacks. The attacker moved data from a server that contains data related to SecureID to an internal server where the data was aggregated, compressed and encrypted for extraction. The attacker used FTP to extract the encrypted data from the RSA’s internal server to an external server and the encrypted data was removed to hide the evidence of the attack.
+- On 2011, March 14th:
+  - Adobe issued a security advisory and shared the patch schedule for the Adobe Flash zero-day (https://www.adobe.com/support/security/advisories/apsa11-01.html).
+- On 2011, March 17th:
+  - RSA announced the discovery of the security breach happened for SecureID.
+- On 2011, March 21th:
+  - Adobe released the patch for the zero-day vulnerability.
+- On 2011, June 6th:
+  - RSA publicly announced the offer of replacement of victim clients’ secure tokens.
 
 ## What were the direct costs (expenses) of the breach? 
 
